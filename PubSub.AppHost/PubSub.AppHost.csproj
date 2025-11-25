@@ -1,0 +1,22 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1a70fb5d-49e9-46c3-99b9-83b9e7e6f467</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.0.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.0.0" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceA\ServiceA.csproj" />
+    <ProjectReference Include="..\ServiceB\ServiceB.csproj" />
+  </ItemGroup>
+
+</Project>
