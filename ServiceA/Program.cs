@@ -11,7 +11,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.UseSwaggerUI(
-        ModernStyle.Futuristic,
+        Theme.Futuristic,
         options => options.SwaggerEndpoint("/openapi/v1.json", "ServiceA v1"));
 }
 

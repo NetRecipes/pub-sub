@@ -16,7 +16,7 @@ sequenceDiagram
     SidecarB->>ServiceB: Subscribe with event data
 ```
 
----
+## For a written article, refer: [Pub / Sub](https://netrecipes.github.io/courses/dapr-aspire/pub-sub/)
 
 - [x] `Redis Streams`
 
